@@ -16,9 +16,8 @@ const CartSection = ({ cart, handelOrder }) => {
                 onClick={() => handelOrder()}
                 className="btn"
                 style={{
-                    marginTop: "10px",
-                    left: "50px",
-                    position: "relative",
+                    width: "68%",
+                    margin: "10px 50px",
                 }}
             >
                 Order

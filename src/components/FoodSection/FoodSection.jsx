@@ -49,7 +49,13 @@ const FoodSection = ({ foodDataRes }) => {
                         ></FoodCard>
                     ))}
                 </div>
-                <div style={{ width: "25%", background: "#cecece" }}>
+                <div
+                    style={{
+                        width: "25%",
+                        background: "#cecece",
+                        borderRadius: "6px",
+                    }}
+                >
                     <CartSection
                         cart={cart}
                         handelOrder={handelOrder}

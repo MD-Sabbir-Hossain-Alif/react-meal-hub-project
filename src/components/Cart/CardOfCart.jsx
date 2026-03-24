@@ -11,13 +11,13 @@ const CardOFCart = ({ item }) => {
                     <p className="truncate-multiline">{item.strInstructions}</p>
                     <h4
                         style={{
-                            color: "black",
-                            backgroundColor: "white",
-                            padding: "9px",
-                            borderRadius: "6px",
+                            color: "#5e5e5e",
                         }}
                     >
-                        Quantity: {item.quantity}x
+                        Quantity:{" "}
+                        <span style={{ fontSize: "20px", color: "black" }}>
+                            {item.quantity}x
+                        </span>
                     </h4>
                 </div>
             </div>
