@@ -1,0 +1,62 @@
+/* common css */
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* parent container */
+.parent-container {
+    display: flex;
+    max-width: 1280px;
+    margin: 50px auto;
+    gap: 20px;
+}
+
+.nav-container {
+    color: white;
+    background-color: rgb(57, 57, 57);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.nav-left img {
+    width: 48px;
+    height: 48px;
+}
+
+.nav-right {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-right a {
+    color: white;
+    border: 1px solid aliceblue;
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.nav-right a:hover {
+    background-color: aliceblue;
+    color: black;
+    transform: scale(1.1);
+}
+
+/* card-container css  */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
